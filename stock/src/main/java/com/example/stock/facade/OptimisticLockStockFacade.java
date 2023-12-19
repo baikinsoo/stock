@@ -4,11 +4,11 @@ import com.example.stock.service.OptimisticLockStockService;
 import org.springframework.stereotype.Component;
 
 @Component
-public class OptimisticLockStockFacae {
+public class OptimisticLockStockFacade {
 
     private final OptimisticLockStockService optimisticLockStockService;
 
-    public OptimisticLockStockFacae(OptimisticLockStockService optimisticLockStockService) {
+    public OptimisticLockStockFacade(OptimisticLockStockService optimisticLockStockService) {
         this.optimisticLockStockService = optimisticLockStockService;
     }
 
